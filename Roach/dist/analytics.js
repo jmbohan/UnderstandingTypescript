@@ -1,2 +1,8 @@
 "use strict";
-console.log('This is an analytics file');
+let logged;
+function sendAnalytics(data) {
+    console.log(data);
+    logged = true;
+}
+sendAnalytics('The data');
+//# sourceMappingURL=analytics.js.map
