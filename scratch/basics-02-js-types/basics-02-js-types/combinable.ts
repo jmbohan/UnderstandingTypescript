@@ -1,7 +1,7 @@
 type Combinable = number | string;
 type ConversionDescriptor = 'as-number' | 'as-text';
 type User = { name: string, age: number };
-const u1: User = { name: 'Max', age: 30 };
+const u1: User = { name: 'Max', age: 42 };
 
 function combineThings(
     n1: Combinable,
@@ -25,3 +25,4 @@ function isOlder(user: User, checkAge: number) {
     return checkAge > user.age;
 }
 
+console.log(greet(u1));
