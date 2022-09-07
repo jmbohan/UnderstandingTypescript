@@ -1,22 +1,16 @@
+"use strict";
 // import axios from "axios";
-
-
 // const form = document.querySelector("form")!;
 // const addressInput = document.getElementById("address")! as HTMLInputElement;
-
 // const GOOGLE_API_KEY = "AIzaSyCIaAc2c5M3VpbCH6PPq_guwy9lHuowXOs";
-
 // // declare var google: any;
-
 // type GoogleGeocodingResponse = {
 //   results: { geometry: { location: { lat: number; lng: number } } }[];
 //   status: "OK" | "ZERO_RESULTS";
 // };
-
 // function searchAddressHandler(event: Event) {
 //   event.preventDefault();
 //   const enteredAddress = addressInput.value;
-
 //   axios
 //     .get<GoogleGeocodingResponse>(
 //       `https://maps.googleapis.com/maps/api/geocode/json?address=${encodeURI(
@@ -32,7 +26,6 @@
 //         center: coordinates,
 //         zoom: 16
 //       }); 
-
 //       new google.maps.Marker({ position: coordinates, map: map });
 //     })
 //     .catch(err => {
@@ -40,5 +33,4 @@
 //       console.log(err);
 //     });
 // }
-
 // form.addEventListener("submit", searchAddressHandler);
